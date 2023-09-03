@@ -73,10 +73,21 @@
       }
       #imagesOutput {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
         margin-top: 1em;
-        margin-right: 10px;
+      }
+      #imagePreview {
+        border-radius: 10px;
+        border: #007bff solid 2px;
+        border-color: black;
+        padding-right: 15px;
+      }
+      #imageContainer {
+        border-color: black;
+        border-radius: 10px;
+        border: #007bff solid 2px;
+        max-width: 512px;
+        max-height: 512px;
       }
     </style>
   </head>

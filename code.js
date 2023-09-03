@@ -146,8 +146,8 @@ function previewImage() {
     reader.onload = function (e) {
       var img = document.createElement("img");
       img.src = e.target.result;
-      img.style.maxWidth = "400px";
-      img.style.height = "400px";
+      img.style.maxWidth = "512px";
+      img.style.height = "512px";
       imagePreview.appendChild(img);
     };
 
