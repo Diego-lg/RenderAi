@@ -7,7 +7,7 @@ const headers = {
   "Access-Control-Allow-Methods": "POST,PATCH,OPTIONS",
 };
 
-const proxyUrl = "https://gifted-wildflower-54265.pktriot.net/generate"; // The proxy URL you're running
+const proxyUrl = "https://pvbeayuubx.loclx.io/generate"; // The proxy URL you're running
 const apiUrl = "http://127.0.0.1:5000/generate"; // Your Flask API endpoint
 
 const inputElement = document.getElementById("prompt");
