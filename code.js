@@ -8,7 +8,7 @@ const headers = {
 };
 
 const proxyUrl = "https:/rtx3070.loclx.io/generate"; // The proxy URL you're running
-const apiUrl = "http://127.0.0.1:5000/generate"; // Your Flask API endpoint
+const apiUrl = "http://rtx3070.loclx.io/generate"; // Your Flask API endpoint
 
 const inputElement = document.getElementById("prompt");
 const inputValue = inputElement.value;
